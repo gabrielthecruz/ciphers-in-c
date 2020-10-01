@@ -23,9 +23,11 @@ void main() {
 
     printf("Plain Text: %s\n\n", str);
 
+    // Encryption
     encrypt(ptr_str, ptr_key);
     printf("Encrypted: %s (%s)\n", str, key);
 
+    //Decryyption
     decrypt(ptr_str, ptr_key);
     printf("Decrypted: %s\n", str, key);
 }
